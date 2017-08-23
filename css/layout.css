@@ -228,7 +228,7 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 40px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -270,11 +270,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
-}
-#resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
-}
+} 
 
 #resume .c1 {
    color: #4d4d4d;
@@ -286,6 +282,78 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .new {
+   color: #4d4d4d;
+   margin-bottom: 18px;
+   margin-top: 9px;
+   font: 16px/30px 'opensans-bold', sans-serif;
+      text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Work Ex Section
+/* ------------------------------------------------------------------ */
+
+#work {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 42px;
+   overflow: hidden;
+}
+
+#work a, #work a:visited  { color: #11ABB0; }
+#work a:hover, #work a:focus { color: #313131; }
+
+#work h1 {
+   font: 30px/30px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+     text-align: justify;
+    text-justify: inter-word;
+}
+#work h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#work h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+      text-align: justify;
+    text-justify: inter-word;
+}
+
+#work .header-col { padding-top: 9px; }
+#work .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#work .info {
+   font: 19px/30px 'opensans-bold', sans-serif;
+   color: #4d4d4d;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#work .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#work .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+#work .c1 {
+   color: #4d4d4d;
+   margin-bottom: 18px;
+   margin-top: 9px;
+   font: 17px/30px 'opensans-regular', sans-serif;
+      text-align: justify;
+    text-justify: inter-word;
+}
+
+#work .new {
    color: #4d4d4d;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -349,12 +417,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .python {
-  	width: 60%;
+  	width: 70%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -372,6 +440,11 @@ ul#nav li.current a { color: #F06000; }
   	width: 70%;
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
+}
+.android_dev {
+    width: 80%;
+    -moz-animation: git 2s ease;
+    -webkit-animation: git 2s ease;
 }
 
 @-moz-keyframes java {
