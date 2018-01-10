@@ -422,22 +422,22 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: java 2s ease;
 }
 .python {
-  	width: 70%;
+  	width: 90%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
 .htmlcss {
-  	width: 70%;
+  	width: 60%;
   	-moz-animation: htmlcss 2s ease;
   	-webkit-animation: htmlcss 2s ease;
 }
 .r {
-  	width: 60%;
+  	width: 70%;
   	-moz-animation: r 2s ease;
   	-webkit-animation: r 2s ease;
 }
 .git {
-  	width: 70%;
+  	width: 80%;
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
 }
